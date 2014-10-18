@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Register below</title>
+</head>
+<body>
+<center><form method="post" action="Register">
+	Matrimony Profile for :
+	<br>
+	<SELECT name="register_by" id="register_by" width="30px">
+		<option value="1">Select Matrimony Profile for</option>
+	  <option value="2">Myself</option>
+	  <option value="3">Son</option>
+	  <option value="4">Daughter</option>
+	  <option value="5">Brother</option>
+	  <option value="6">Sister</option>
+	  <option value="7">Relative</option>
+	  <option value="8">Friend</option>
+	</SELECT>
+	<br>
+	<br>
+	Name :
+	<input type="text" name="name" width="30px" 
+	 placeholder="Enter Name here">
+	<br>
+	<br>
+	Gender :
+	<input type="radio" name="sex" value="male" checked="checked">Male 
+	<input type="radio" name="sex" value="female">Female
+	<br>
+	<br>
+	Religion : 
+	<select  name="RELIGION" id="RELIGION" size="1"  onchange="religion_resetRF();">
+	<option value="0" selected>Select Religion</option>
+	<option value="1">Hindu</option>
+	<option value="10">Muslim - Shia</option>
+	<option value="11">Muslim - Sunni</option>
+	<option value="2">Muslim - Others</option>
+	<option value="12">Christian - Catholic</option>
+	<option value="13">Christian - Orthodox</option>
+	<option value="14">Christian - Protestant</option>
+	<option value="3">Christian - Others</option>
+	<option value="4">Sikh</option>
+	<option value="15">Jain - Digambar</option>
+	<option value="16">Jain - Shwetambar</option>
+	<option value="5">Jain - Others</option>
+	<option value="6">Parsi</option><option value="7">Buddhist</option>
+	<option value="8">Inter-Religion</option>
+	<option value="9">No Religious Belief</option>
+	</select>
+	<br>
+	<br>
+	Mother Tounge :
+	<select  name="MOTHERTONGUE" id="MOTHERTONGUE" size="1"  onchange="makeDrequest(this.value);">
+	<option value="0" selected>Select Mother Tongue</option>
+	<option value=54>Angika</option>
+	<option value=1>Arunachali</option>
+	<option value=2>Assamese</option>
+	<option value=3>Awadhi</option>
+	<option value=4>Bengali</option>
+	<option value=5>Bhojpuri</option>
+	<option value=6>Brij</option>
+	<option value=7>Bihari</option>
+	<option value=53>Badaga</option>
+	<option value=8>Chatisgarhi</option>
+	<option value=9>Dogri</option>
+	<option value=10>English</option>
+	<option value=11>French</option>
+	<option value=12>Garhwali</option>
+	<option value=13>Garo</option>
+	<option value=14>Gujarati</option>
+	<option value=15>Haryanvi</option>
+	<option value=16>Himachali/Pahari</option>
+	<option value=17 >Hindi</option>
+	<option value=18>Kanauji</option>
+	<option value=19>Kannada</option>
+	<option value=20>Kashmiri</option>
+	<option value=21>Khandesi</option>
+	<option value=22>Khasi</option>
+	<option value=23>Konkani</option>
+	<option value=24>Koshali</option>
+	<option value=25>Kumoani</option>
+	<option value=26>Kutchi</option>
+	<option value=27>Lepcha</option>
+	<option value=28>Ladacki</option>
+	<option value=29>Magahi</option>
+	<option value=30>Maithili</option>
+	<option value=31>Malayalam</option>
+	<option value=32>Manipuri</option>
+	<option value=33>Marathi</option>
+	<option value=34>Marwari</option>
+	<option value=35>Miji</option>
+	<option value=36>Mizo</option>
+	<option value=37>Monpa</option>
+	<option value=38>Nicobarese</option>
+	<option value=39>Nepali</option>
+	<option value=40>Oriya</option>
+	<option value=41>Punjabi</option>
+	<option value=42>Rajasthani</option>
+	<option value=43>Sanskrit</option>
+	<option value=44>Santhali</option>
+	<option value=45>Sindhi</option>
+	<option value=46>Sourashtra</option>
+	<option value=47>Tamil</option>
+	<option value=48>Telugu</option>
+	<option value=49>Tripuri</option>
+	<option value=50>Tulu</option>
+	<option value=51>Urdu</option>
+	</select>
+	<br>
+	<br>
+</form>
+</center>
+</body>
+</html>
